@@ -171,10 +171,6 @@ function toggleProjectsPanel(section) {
 function showBlogOverlay(htmlFile) {
     const overlay = document.getElementById("blog-overlay");
 
-    const basePath = window.location.pathname.replace(/\/[^/]*$/, "/");
-    htmlFile = `${basePath}blogs/${htmlFile}`;
-
-
     // Cargar el fragmento
     fetch(htmlFile)
         .then(res => res.text())
