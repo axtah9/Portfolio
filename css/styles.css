@@ -171,7 +171,7 @@ html, body {
     transition: background-color 0.3s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and ((max-width: 768px) or (orientation: portrait)) {
     .navbar {
         font-size: large;
         padding: 1rem 1rem;
@@ -183,7 +183,6 @@ html, body {
 }
 
 
-
 /* MAIN CONTENT */
 main {
     flex: 1;
@@ -193,7 +192,7 @@ main {
     padding-right: 20%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and ((max-width: 768px) or (orientation: portrait)) {
     main {
         padding-left: 2em;
         padding-right: 2em;
@@ -277,7 +276,7 @@ section {
         gap: 1em;
 
 
-        @media screen and (max-width: 768px) {
+        @media screen and ((max-width: 768px) or (orientation: portrait)) {
             grid-template-columns: 1fr;
         }
 
@@ -459,7 +458,7 @@ section {
     font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
     text-align: center;
 
-    @media screen and (max-width: 768px) {
+    @media screen and ((max-width: 768px) or (orientation: portrait)){
         font-size: 3.5rem;
     }
 }
@@ -472,7 +471,7 @@ section {
 
     text-align: justify;
 
-    @media screen and (max-width: 768px) {
+    @media screen and ((max-width: 768px) or (orientation: portrait)) {
         margin-left: 5%;
         margin-right: 5%;
 
@@ -555,7 +554,7 @@ section {
 
     animation: fadeInUp 1s ease forwards;
 
-    @media screen and (max-width: 768px) {
+    @media screen and ((max-width: 768px) or (orientation: portrait)) {
         margin-top: 0px;
     }
 }
@@ -594,7 +593,7 @@ section {
     line-height: 1.6;
     text-align: justify;
 
-    @media screen and (max-width: 768px) {
+    @media screen and ((max-width: 768px) or (orientation: portrait)) {
         font-size: 1.3rem;
     }
 
