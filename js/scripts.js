@@ -172,7 +172,7 @@ function showBlogOverlay(htmlFile) {
     const overlay = document.getElementById("blog-overlay");
 
     // Asegurarse de que la ruta es correcta
-    htmlFile = `https://github.com/axtah9/Portfolio/blogs/${htmlFile}`;
+    htmlFile = `blogs/${htmlFile}`;
 
     // Cargar el fragmento
     fetch(htmlFile)
