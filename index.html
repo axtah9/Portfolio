@@ -1,1 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ismael Caro - Portfolio</title>
+        <link rel="icon" type="image/png" href="img/header/AxtahGamesLogoWithoutTitle.png">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 
+    <body>
+        <div id="header"></div>
+
+        <!-- ¿Qué haces aquí? Jaja, ¡Ve a la sección de "Proyectos" para ver mis trabajos! -->
+
+        <main>
+            <div class="main-title">
+                <p id="projects-title">Proyectos</p>
+            </div>
+
+            <div class="projects-navbar">
+                <button class="navbar-button active" id="gamedev-nav">Game Dev</button>
+                <button class="navbar-button" id="webdev-nav">Web Dev</button>
+                <button class="navbar-button" id="appdev-nav">App Dev</button>
+                <button class="navbar-button" id="aidev-nav">AI</button>
+            </div>
+
+
+
+
+            <div class="projects-content" id="projects-content">
+                <div class="gamedev-section active">
+                    <p class ="title-projects">Principales</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/Lycosidae.jpg" alt="Lycosidae" onClick="showBlogOverlay('lycosidae_blog.html')">
+                            <p class="project-title">Lycosidae</p>
+                            <p class="project-subtitle">Estrategia en tiempo real (2024-2025)</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/ExitThePIramid.png" alt="Exit the 3.14ramid" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Exit the 3.14ramid</p>
+                            <p class="project-subtitle">Roguelike FPS (2023)</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/LaTempestad.png" alt="La Tempestad" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">La Tempestad</p>
+                            <p class="project-subtitle">Survival Horror (2023)</p>
+                        </div>
+                    </div>
+
+
+                    <p class ="title-projects">GameJams</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/ESC.png" alt="ESC." onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">ESC.</p>
+                            <p class="project-subtitle">Terror Plataforma (2025)</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Fartissues.png" alt="Fartissues" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Fartissues</p>
+                            <p class="project-subtitle">Carreras Experimentales (2025)</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Crickets.png" alt="Crickets!" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Crickets!</p>
+                            <p class="project-subtitle">Survival Dodging Game (2024)</p>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="img/projects/EternalSacrifice.png" alt="Eternal Sacrifice" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Eternal Sacrifice</p>
+                            <p class="project-subtitle">Bullet Hell (2024)</p>
+                        </div>
+                    </div>
+
+
+                    <p class ="title-projects">Arte Técnico</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/OpenGL.png" alt="OpenGL" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">OpenGL</p>
+                            <p class="project-subtitle">Graphics Programming (Actualidad)</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Shaders.png" alt="Shaders" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Shaders</p>
+                            <p class="project-subtitle">Unity</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/UnityAnimations.png" alt="Animaciones Unity" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Animaciones Unity</p>
+                            <p class="project-subtitle">Unity</p>
+                        </div>
+                    </div>
+
+                    
+                    <p class ="title-projects">Arte 3D</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/Modelado.png" alt="Modelado" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Modelado</p>
+                            <p class="project-subtitle">Blender</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Texturizado.png" alt="Texturizado" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Texturizado</p>
+                            <p class="project-subtitle">Blender</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Rigging.png" alt="Rigging" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Rigging</p>
+                            <p class="project-subtitle">Blender</p>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="img/projects/Animaciones.png" alt="Animaciones" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Animaciones</p>
+                            <p class="project-subtitle">Blender</p>
+                        </div>
+                    </div>
+
+
+                    <p class ="title-projects">Arte 2D</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/PixelArt.png" alt="Pixel Art" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Pixel Art</p>
+                            <p class="project-subtitle">Aseprite</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/LineArt.png" alt="Line Art" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Line Art</p>
+                            <p class="project-subtitle">Krita</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/UI.png" alt="UI" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">UI</p>
+                            <p class="project-subtitle">Krita</p>
+                        </div>
+                    </div>
+
+
+                    <p class ="title-projects">Diseño de Sonido</p>
+                    
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/SFX.png" alt="Pixel Art" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">SFX</p>
+                            <p class="project-subtitle">Reaper, Vital y FMOD</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/Musica.png" alt="Música" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Música</p>
+                            <p class="project-subtitle">Reaper y Vital</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="webdev-section hidden">
+                    <p class ="title-projects">Desarrollo Web</p>
+
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/Portfolio.png" alt="Portfolio" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Este Portfolio</p>
+                            <p class="project-subtitle">Web desde 0 (2025)</p>
+                        </div>
+                        
+                        <div class="project-card">
+                            <img src="img/projects/Cooking Grandma.png" alt="Cooking Grandma" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Cooking Grandma</p>
+                            <p class="project-subtitle">Wordpress (2024)</p>
+                        </div>
+
+                        <div class="project-card">
+                            <img src="img/projects/Mangaku.png" alt="Pixel Art" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Mangaku</p>
+                            <p class="project-subtitle">Web desde 0 (2024)</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="appdev-section hidden">
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/SummonerSync.png" alt="Summoners Sync" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Summoners Sync</p>
+                            <p class="project-subtitle">Java, Servlets y Android Studio</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="aidev-section hidden">
+                    <div class="projects-grid" id="main-projects-grid">
+                        <div class="project-card">
+                            <img src="img/projects/Metaheuristicas.png" alt="Metaheurísticas" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Metaheurísticas</p>
+                            <p class="project-subtitle">Python</p>
+                        </div>
+    
+                        <div class="project-card">
+                            <img src="img/projects/MachineLearning.png" alt="Machine Learning" onClick="showBlogOverlay('wip.html')">
+                            <p class="project-title">Machine Learning</p>
+                            <p class="project-subtitle">Python y Google Colab</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="blog-overlay" class="overlay"></div>
+        </main>
+
+        <div id="footer"></div>
+    
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>
