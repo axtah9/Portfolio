@@ -257,10 +257,11 @@ section {
 }
 
 .projects-content {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     justify-content: center;
     gap: 1em;
+
+    animation: fadeInUp 1s ease forwards;
 
     padding-top: 75px;
 
