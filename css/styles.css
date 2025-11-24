@@ -488,6 +488,15 @@ section {
         box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
     }
 
+    video {
+        max-width: 90%;
+        height: auto;
+        margin: 1em 0;
+
+        border-radius: 25px;
+        box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.25);
+    }
+
     .spacer {
         display: flex;
         justify-content: center;
